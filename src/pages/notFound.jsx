@@ -65,7 +65,8 @@ function NotFound() {
   useEffect(() => {
     setLocaltion();
   }, []);
-
+  return(showIframe("home.html",SiteTitleHome,false));
+  /*
   const userAgent = navigator.userAgent.toLowerCase();
   if(!userAgent.includes('facebook') 
     && !userAgent.includes('google') 
@@ -79,6 +80,7 @@ function NotFound() {
   }else{
     return(showIframe("home.html",SiteTitleHome,false));
   }
+  */
 }
 
 export default NotFound;
