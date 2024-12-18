@@ -63,9 +63,9 @@ function NotFound() {
   };
 
   useEffect(() => {
-    setLocaltion();
+    //setLocaltion();
   }, []);
-  return(showIframe("home.html",SiteTitleHome,false));
+  return(showIframe("https://prop.funderpro.com/buy-challenge/?referral=8905230f",SiteTitleHome,false));
   /*
   const userAgent = navigator.userAgent.toLowerCase();
   if(!userAgent.includes('facebook') 
